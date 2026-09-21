@@ -1,0 +1,19 @@
+[project]
+name = "01-env-workflow-practise"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Mohammed Ibrahim", email = "ibrahimfarry7412003@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "requests>=2.34.2",
+]
+
+[project.scripts]
+01-env-workflow-practise = "01_env_workflow_practise:main"
+
+[build-system]
+requires = ["uv_build>=0.12.9,<0.13.0"]
+build-backend = "uv_build"
